@@ -124,7 +124,7 @@
       const data = { email: email };
 
       try {
-        await fetch("TU_URL_DEL_SCRIPT", {  // Reemplaza con la URL del Google Apps Script
+        await fetch("https://script.google.com/macros/s/AKfycbw_kmSE7fnE383KP9RY0_RuGqqJBOdFtVSjT7X-83VsyODr7mm35_9e6B9i-QJsJkI8/exec", {  // Reemplaza con la URL del Google Apps Script
           method: "POST",
           body: JSON.stringify(data),
           headers: { "Content-Type": "application/json" }
